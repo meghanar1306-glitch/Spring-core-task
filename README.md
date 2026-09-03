@@ -205,11 +205,7 @@ redirects anonymous requests back to `/login`.
   DataSource/JPA/Service/Repository beans, and a child web context (`WebConfig`) for
   Controllers and the JSP view resolver.
 
-### 8.1 Configuration: Java-based, no XML, no Spring Boot
 
-There is **no `web.xml`, no Spring XML file, no `application.properties`, and no Spring Boot**
-anywhere in this project. Everything is plain Spring 6 (Spring Core / Spring MVC), wired with
-annotated Java classes in `com.leaveportal.config`:
 
 | Old file | Replaced by |
 |---|---|
